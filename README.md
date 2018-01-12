@@ -1,4 +1,4 @@
-###Monty
+# Monty
 
 One Paragraph of project description goes here
 
@@ -29,7 +29,7 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## Usage 
-# Example bytecode file
+### Example bytecode file
 ```$ cat -e bytecodes/000.m
 push 0$
 push 1$
