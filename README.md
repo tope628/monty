@@ -1,14 +1,13 @@
 # Monty
-
-One Paragraph of project description goes here
+Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
 
 ## Table of Contents
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Bytecode Instructions](#bytecode-instructions)
-* [Credits](#credits)
-* [License](#license)
+* [Functionallity](#functionallity)
+* [Authors](#authors)
+* [Acknowledgments](#acknowledgments)
 
 ### Prerequisites
 * Ubuntu 14.04 LTS
@@ -41,48 +40,34 @@ push 4$
       push    6        $
 pall$
 ```
-Give an example
+To start monty and intepret a file:
+```sh
+./monty bytecodes/000.m
 ```
+### Functionallity
+The following functions are handled with `monty`:
+* `pint`: prints the value at the top of the stack, followed by a new line.
+* `pall`: prints all the values on the stack, starting from the top of the stack.
+* `push`: pushes an element onto the stack/queue.
+* `nop`: No operation.
+* `pop`: removes the top element of the stack.
+* `swap`: swaps the top two elements of the stack.
+* `rotl`: Rotate the top element to the bottom.
+* `rotr`: Rotate the top element to the top.
+* `stack`: Change to stack mode.
+* `queue`: Change to queue mode.
+* `add`: Add top two operands.
+* `rotl`: Divide top two operands.
+* `rotl`: Modulo top two operands.
+* `rotl`: Multiply top two operands.
+* `rotl`: Subtract top two operands.
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Olatope Agboola** - [Github](https://github.com/tope628) [LinkedIn](https://www.linkedin.com/in/olatopeagboola/)
+* **Anoop Macharla** - [Github](https://github.com/amacharla) [LinkedIn](https://www.linkedin.com/in/amacharla/)
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
+*This project was completed as a student at [Holberton School](holbertonschool.com)
