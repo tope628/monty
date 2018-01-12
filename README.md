@@ -70,4 +70,4 @@ The following functions are handled with `monty`:
 
 ## Acknowledgments
 
-*This project was completed as a student at [Holberton School](holbertonschool.com)
+This project was completed as a student at [Holberton School](holbertonschool.com)
